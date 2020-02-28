@@ -19,7 +19,7 @@
 
 <pre>
   <p align="center">There are two hard things in computer science: cache invalidation, <b>naming things</b>, and off-by-one errors.<br/><a href="https://www.npmjs.com/package/alfred-nym"><strong>alfred-nym</strong></a> tries to help with one of them.</p>
-  <p align="center"><img class="img-responsive" width="500" src="https://raw.githubusercontent.com/darrikonn/td-cli/master/img/td-cli.gif" alt="gif"/></p>
+  <p align="center"><img class="img-responsive" width="500" src="https://user-images.githubusercontent.com/5694851/75570517-349f6900-5a4f-11ea-98ef-142a3e948d72.gif" alt="gif"/></p>
 </pre>
 
 
