@@ -1,0 +1,29 @@
+{
+  "name": "alfred-nym",
+  "version": "0.1.0",
+  "description": "Synonyms and Antonyms Alfred workflow",
+  "main": "index.js",
+  "homepage": "https://github.com/darrikonn/alfred-nym#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrikonn/alfred-nym.git"
+  },
+  "keywords": [
+    "synonym",
+    "antonym",
+    "alfred",
+    "nym"
+  ],
+  "author": "Darri Konn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darrikonn/alfred-nym/issues"
+  },
+  "scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+  "dependencies": {
+    "alfy": "^0.9.1"
+  }
+}
