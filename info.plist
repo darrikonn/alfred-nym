@@ -8,7 +8,33 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>32BF21BC-E9AC-4DE5-9126-B042BCA50E37</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74E1D34C-0EEA-41AA-99FB-54DC95BD9646</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>BB9F8EA4-2C44-415D-B379-57F702015D2F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74E1D34C-0EEA-41AA-99FB-54DC95BD9646</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F30015E0-B3D1-4263-B3E7-B92669E4D984</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -25,13 +51,62 @@
 	<key>createdby</key>
 	<string>Darri Konn</string>
 	<key>description</key>
-	<string>Synonym and Antonym</string>
+	<string>Synonyms and Antonyms Alfred workflow</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>nym</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>snym</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>working...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>synonym '{query}'</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>32BF21BC-E9AC-4DE5-9126-B042BCA50E37</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -58,7 +133,7 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Working...</string>
+				<string>working...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -68,7 +143,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Synonym '{query}'</string>
+				<string>nym '{query}'</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -98,27 +173,92 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>anym</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>working...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1 -i"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>antonym '{query}'</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F30015E0-B3D1-4263-B3E7-B92669E4D984</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>32BF21BC-E9AC-4DE5-9126-B042BCA50E37</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>25</integer>
+		</dict>
 		<key>74E1D34C-0EEA-41AA-99FB-54DC95BD9646</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>375</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>180</integer>
 		</dict>
 		<key>BB9F8EA4-2C44-415D-B379-57F702015D2F</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>180</integer>
+		</dict>
+		<key>F30015E0-B3D1-4263-B3E7-B92669E4D984</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>340</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.1.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/darrikonn/alfred-nym</string>
+	<string>https://github.com/darrikonn/alfred-nym#readme</string>
 </dict>
 </plist>
