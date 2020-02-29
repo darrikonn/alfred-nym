@@ -29,7 +29,12 @@ npm install -g alfred-nym
 ```
 
 ## Getting started
-Run `nym` to get **synonyms**. Pass the `-i` flag to get **antonyms**:
+Run `nym` or `snym` to get **synonyms**. Pass the `-i` flag or run `anym` to get **antonyms**:
+
 - Run `nym happy` to get synonyms of *happy*.
 
+- Run `snym happy` to get synonyms of *happy*.
+
 - Run `nym happy -i` to get antonyms of *happy*.
+
+- Run `anym happy` to get antonyms of *happy*.
