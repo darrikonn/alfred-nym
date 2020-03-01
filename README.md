@@ -24,9 +24,13 @@
 
 
 ## Installation
+### via npm
 ```bash
 npm install -g alfred-nym
 ```
+
+### via nym.alfredworkflow download
+Download and open the [nym.alfredworkflow](https://github.com/darrikonn/alfred-nym/releases/download/latest/nym.alfredworkflow) file, to import into Alfred.
 
 ## Getting started
 Run `nym` or `snym` to get **synonyms**. Pass the `-i` flag or run `anym` to get **antonyms**:
