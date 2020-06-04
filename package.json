@@ -8,21 +8,16 @@
     "type": "git",
     "url": "git+https://github.com/darrikonn/alfred-nym.git"
   },
-  "keywords": [
-    "synonym",
-    "antonym",
-    "alfred",
-    "nym"
-  ],
+  "keywords": ["synonym", "antonym", "alfred", "nym"],
   "author": "darrikonn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/darrikonn/alfred-nym/issues"
   },
   "scripts": {
-		"postinstall": "alfy-init",
-		"preuninstall": "alfy-cleanup"
-	},
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
   "dependencies": {
     "alfy": "^0.9.1"
   }
